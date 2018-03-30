@@ -1,4 +1,5 @@
-﻿using Singleton;
+﻿using FactoryMethod;
+using Singleton;
 using StrategyNull;
 using System;
 using System.Collections.Generic;
@@ -31,11 +32,11 @@ namespace DesignPatternsApp
             //    DecoratorExecute.DecoratorCommand();
             //    return true;
             //}
-            //else if (result == "4")
-            //{
-            //    FactoryExecute.FactoryCommand();
-            //    return true;
-            //}
+            else if (result == "4")
+            {
+                FactoryExecute.FactoryCommand();
+                return true;
+            }
 
             else
             {
