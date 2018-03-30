@@ -1,4 +1,5 @@
-﻿using StrategyNull;
+﻿using Singleton;
+using StrategyNull;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,11 +21,11 @@ namespace DesignPatternsApp
                 StrategyExecute.StrategyCommand();
                 return true;
             }
-            //else if (result == "2")
-            //{
-            //    SingletonExecute.SingletonCommand();
-            //    return true;
-            //}
+            else if (result == "2")
+            {
+                SingletonExecute.SingletonCommand();
+                return true;
+            }
             //else if (result == "3")
             //{
             //    DecoratorExecute.DecoratorCommand();
