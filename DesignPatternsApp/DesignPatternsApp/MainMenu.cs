@@ -1,4 +1,5 @@
-﻿using FactoryMethod;
+﻿using DecoratorPattern;
+using FactoryMethod;
 using Singleton;
 using StrategyNull;
 using System;
@@ -15,7 +16,7 @@ namespace DesignPatternsApp
         {
             Console.Clear(); //Cleans window so you can see.
             Console.WriteLine("Here is a list of design patterns.");
-            Console.WriteLine("Chose 1) Strategy/Null Object Pattern, 2)Singleton Pattern 3)Decorator Pattern 4)Factory Method Pattern"); //This is where you tell user what their options are.
+            Console.WriteLine("Chose 1) Strategy/Null Object Pattern, 2)Singleton Pattern 3)Decorator Pattern 4)Factory Pattern"); //This is where you tell user what their options are.
             string result = Console.ReadLine();
             if (result == "1")
             {
@@ -27,11 +28,11 @@ namespace DesignPatternsApp
                 SingletonExecute.SingletonCommand();
                 return true;
             }
-            //else if (result == "3")
-            //{
-            //    DecoratorExecute.DecoratorCommand();
-            //    return true;
-            //}
+            else if (result == "3")
+            {
+                DecoratorExecute.DecoratorCommand();
+                return true;
+            }
             else if (result == "4")
             {
                 FactoryExecute.FactoryCommand();
