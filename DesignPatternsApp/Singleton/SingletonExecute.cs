@@ -12,7 +12,9 @@ namespace Singleton
         {
             Singleton myvar = Singleton.GetInstance();
             Console.WriteLine("This is the Singleton pattern. It restricts the instantiation of a class to one object.");
-            myvar.DoSomething("This is the only instance of this object.");
+            Console.Write("Please input a message for the only object to write back to you: ");
+            string input = Console.ReadLine();
+            myvar.DoSomething(input);
             Console.ReadLine();
         }
     }

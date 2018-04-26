@@ -49,9 +49,7 @@ namespace StrategyNull
                 {
                     repeat = false;
                 }
-
             }
         }
-
     }
 }

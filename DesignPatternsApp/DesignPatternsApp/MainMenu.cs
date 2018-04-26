@@ -44,7 +44,6 @@ namespace DesignPatternsApp
                 Null.Object();//Dont have to have null(else catches all) but it looks nice.
                 return false;
             }
-
         }
     }
 }
