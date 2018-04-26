@@ -14,7 +14,7 @@ namespace FactoryMethod
             if (TORF)
             {
               
-                return new ConcreteBusinessObject("Mike");
+                return new ConcreteBusinessObject1("Mike");
             }
             else
             {                

@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConcreteBusinessObject.cs" />
+    <Compile Include="ConcreteBusinessObject1.cs" />
     <Compile Include="ConcreteBusinessObject2.cs" />
     <Compile Include="FactoryExecute.cs" />
     <Compile Include="IAbstractionInterface1.cs" />

@@ -8,10 +8,8 @@ namespace FactoryMethod
 {
     public class FactoryExecute
     {
-        public static void FactoryCommand()
+        public static void Execute()
         {
-
-
             //var FactoryPatternExample1Of2 = ObjectFactory.Create(true);
             //var FactoryPatternExample2Of2 = ObjectFactory.Create(false);
             //Console.WriteLine("This is the Factory pattern. It is used for creating objects without having to specify the exact class of the object that will be created.");
@@ -20,7 +18,6 @@ namespace FactoryMethod
             //FactoryPatternExample2Of2.SomethingInteresting();
             //Console.WriteLine("Press enter when you are done reading.");
             //Console.ReadLine();
-
             bool myvar3torf;
             bool myvar4torf;
             Console.WriteLine("This is the Factory pattern. It is used for creating objects without having to specify the exact class of the object that will be created.");
@@ -36,7 +33,6 @@ namespace FactoryMethod
             {
                 myvar3torf = false;
             }
-
             Console.Write("Please enter a T/F value for sedond object.");
             string myvar2torf = Console.ReadLine();
             if (myvar2torf == "t" || myvar2torf == "T")
@@ -47,19 +43,12 @@ namespace FactoryMethod
             {
                 myvar4torf = false;
             }
-
             var myvar1 = ObjectFactory.Create(myvar3torf);
             var myvar2 = ObjectFactory.Create(myvar4torf);
-
-
             myvar1.SomethingInteresting();
             myvar2.SomethingInteresting();
             Console.WriteLine("Press enter when you are done reading.");
             Console.ReadLine();
-
-
-
-
         }
     }
 }

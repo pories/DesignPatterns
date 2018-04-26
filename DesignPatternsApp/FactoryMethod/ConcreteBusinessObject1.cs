@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    public class ConcreteBusinessObject : IAbstractionInterface1
+    public class ConcreteBusinessObject1 : IAbstractionInterface1
     {
-        public ConcreteBusinessObject(string Name)
+        public ConcreteBusinessObject1(string Name)
         {
             //You can do more here.
         }

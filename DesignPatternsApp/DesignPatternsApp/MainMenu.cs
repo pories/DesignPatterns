@@ -35,7 +35,7 @@ namespace DesignPatternsApp
             }
             else if (result == "4")
             {
-                FactoryExecute.FactoryCommand();
+                FactoryExecute.Execute();
                 return true;
             }
 
