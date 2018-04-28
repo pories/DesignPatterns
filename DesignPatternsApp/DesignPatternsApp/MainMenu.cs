@@ -38,7 +38,6 @@ namespace DesignPatternsApp
                 FactoryExecute.Execute();
                 return true;
             }
-
             else
             {
                 Null.Object();//Dont have to have null(else catches all) but it looks nice.

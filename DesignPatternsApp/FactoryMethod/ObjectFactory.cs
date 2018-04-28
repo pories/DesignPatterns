@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace FactoryMethod
 {
     public class ObjectFactory
-    {
-         
+    {       
         public static IAbstractionInterface1 Create(bool TORF)
         {
             if (TORF)
