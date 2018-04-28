@@ -14,7 +14,7 @@ namespace DesignPatternsApp
     {
         public static bool userMainMenu()
         {
-            Console.Clear(); //Cleans window so you can see.
+            Console.Clear(); //Cleans window so you can see. 
             Console.WriteLine("Here is a list of design patterns.");
             Console.WriteLine("Chose 1) Strategy/Null Object Pattern, 2)Singleton Pattern 3)Decorator Pattern 4)Factory Pattern"); //This is where you tell user what their options are.
             string result = Console.ReadLine();
