@@ -10,11 +10,10 @@ namespace Adapter
     {
         public static void Execute()
         {
-            ManagersData md = new ManagersData();
-            Console.WriteLine(md.GetQualifiedData());
-            EmployeeData emplo = new EmployeeData();
-            emplo.GetQualifiedData();
-            Console.ReadLine();
+            ITarget Itarget = new EmployeeAdapter();
+            ThirdPartyBillingSystem client = new ThirdPartyBillingSystem(Itarget);
+            client.ShowEmployeeList();
+            Console.ReadKey();
         }
     }
 }

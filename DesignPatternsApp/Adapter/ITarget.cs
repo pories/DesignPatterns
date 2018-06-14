@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Adapter
 {
-    public class ManagersData
+    public interface ITarget
     {
-        public string GetQualifiedData()
-        {
-            return "AllManagers qualified data";
-        }
+        List<string> GetEmployeeList();
     }
 }
