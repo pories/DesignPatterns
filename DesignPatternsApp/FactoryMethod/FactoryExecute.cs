@@ -23,7 +23,7 @@ namespace FactoryMethod
             Console.WriteLine("This is the Factory pattern. It is used for creating objects without having to specify the exact class of the object that will be created.");
             Console.WriteLine("Here we have created two objects and didn't specify the exact class of the object when it was created.");
             Console.WriteLine("Enter T to create object 1, and F to create object 2.");
-            Console.Write("Please enter a T/F value for first object.");
+            Console.Write("Please enter a T/F value for first object: ");
             string myvar1torf = Console.ReadLine();
             if (myvar1torf == "t" || myvar1torf == "T")
             {
@@ -33,9 +33,9 @@ namespace FactoryMethod
             {
                 myvar3torf = false;
             }
-            Console.Write("Please enter a T/F value for sedond object.");
-            string myvar2torf = Console.ReadLine();
-            if (myvar2torf == "t" || myvar2torf == "T")
+            Console.Write("Please enter a T/F value for sedond object: ");
+            string myvar2torf = Console.ReadLine().ToLower();
+            if (myvar2torf == "t")
             {
                 myvar4torf = true;
             }
