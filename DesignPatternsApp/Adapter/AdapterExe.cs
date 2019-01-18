@@ -10,10 +10,24 @@ namespace Adapter
     {
         public static void Execute()
         {
-            ITarget Itarget = new EmployeeAdapter();
-            ThirdPartyBillingSystem client = new ThirdPartyBillingSystem(Itarget);
-            client.ShowEmployeeList();
-            Console.ReadKey();
+            bool repeat = true;
+            while (repeat)
+            {
+                ITarget Itarget = new EmployeeAdapter();
+                ThirdPartyBillingSystem client = new ThirdPartyBillingSystem(Itarget);
+                client.ShowEmployeeList();
+                Console.Write("Go again? Y/N: ");
+                string go = Console.ReadLine();
+                if (go == "Y" || go == "y")
+                {
+                    repeat = true;
+                }
+                else
+                {
+                    repeat = false;
+                }
+
+            }
         }
     }
 }

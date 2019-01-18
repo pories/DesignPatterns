@@ -10,15 +10,18 @@ namespace FactoryMethod
     {
         public static void Execute()
         {
-            //var FactoryPatternExample1Of2 = ObjectFactory.Create(true);
-            //var FactoryPatternExample2Of2 = ObjectFactory.Create(false);
-            //Console.WriteLine("This is the Factory pattern. It is used for creating objects without having to specify the exact class of the object that will be created.");
-            //Console.WriteLine("Here we have created two objects and didn't specify the exact class of the object when it was created.");
-            //FactoryPatternExample1Of2.SomethingInteresting();
-            //FactoryPatternExample2Of2.SomethingInteresting();
-            //Console.WriteLine("Press enter when you are done reading.");
-            //Console.ReadLine();
-            bool myvar3torf;
+            bool repeat = true;
+            while (repeat)
+            {
+                //var FactoryPatternExample1Of2 = ObjectFactory.Create(true);
+                //var FactoryPatternExample2Of2 = ObjectFactory.Create(false);
+                //Console.WriteLine("This is the Factory pattern. It is used for creating objects without having to specify the exact class of the object that will be created.");
+                //Console.WriteLine("Here we have created two objects and didn't specify the exact class of the object when it was created.");
+                //FactoryPatternExample1Of2.SomethingInteresting();
+                //FactoryPatternExample2Of2.SomethingInteresting();
+                //Console.WriteLine("Press enter when you are done reading.");
+                //Console.ReadLine();
+                bool myvar3torf;
             bool myvar4torf;
             Console.WriteLine("This is the Factory pattern. It is used for creating objects without having to specify the exact class of the object that will be created.");
             Console.WriteLine("Here we have created two objects and didn't specify the exact class of the object when it was created.");
@@ -48,7 +51,18 @@ namespace FactoryMethod
             myvar1.SomethingInteresting();
             myvar2.SomethingInteresting();
             Console.WriteLine("Press enter when you are done reading.");
-            Console.ReadLine();
+                Console.Write("Go again? Y/N: ");
+                string go = Console.ReadLine();
+                if (go == "Y" || go == "y")
+                {
+                    repeat = true;
+                }
+                else
+                {
+                    repeat = false;
+                }
+
+            }
         }
     }
 }
