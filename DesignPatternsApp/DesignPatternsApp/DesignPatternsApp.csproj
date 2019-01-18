@@ -72,6 +72,10 @@
       <Project>{c292897d-fea5-47d6-8edf-bb9cb8d27601}</Project>
       <Name>DecoratorPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Facade\Facade.csproj">
+      <Project>{c7a485d8-528d-424a-a48b-9cbbd14b0e42}</Project>
+      <Name>Facade</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj">
       <Project>{a01076e2-0b6d-49b7-86cc-b762e62baff1}</Project>
       <Name>FactoryMethod</Name>
