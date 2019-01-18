@@ -30,8 +30,6 @@ namespace Singleton
                     repeat = false;
                 }
             }
-
-
         }
     }
 }

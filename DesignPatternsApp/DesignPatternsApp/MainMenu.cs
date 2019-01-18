@@ -3,6 +3,7 @@ using DecoratorPattern;
 using FactoryMethod;
 using Singleton;
 using StrategyNull;
+using Builder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,6 +47,12 @@ namespace DesignPatternsApp
                 AdapterExe.Execute();
                 return true;
             }
+            else if (result == "6")
+            {
+                BuilderExecute.BuilderCommand();
+                return true;
+            }
+
 
             else
             {
