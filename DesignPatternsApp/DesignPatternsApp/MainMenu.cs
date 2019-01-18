@@ -10,6 +10,7 @@ using Flyweight;
 using Proxy;
 using ChainOfResponsibility;
 using Command;
+using Interpreter;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +31,7 @@ namespace DesignPatternsApp
             Console.WriteLine("Here is a list of design patterns.");
             Console.WriteLine("Choose 1) Strategy/Null Object Pattern, 2)Singleton Pattern 3)Decorator Pattern " +
                 "4)Factory Pattern 5) Adapter 6) Builder 7)Prototype 8)Bridge 9) Composite 10)Facade " +
-                "11)Flyweight 12) Proxy 13) Chain Of Responsibility 14) Command"); //This is where you tell user what their options are.
+                "11)Flyweight 12) Proxy 13) Chain Of Responsibility 14) Command 15) Interpreter "); //This is where you tell user what their options are.
             Console.WriteLine("Or hit any other key to exit.");
             string result = Console.ReadLine();
             if (result == "1")
@@ -103,8 +104,11 @@ namespace DesignPatternsApp
                 CommandExecute.CommandCommand();
                 return true;
             }
-
-
+            else if (result == "15")
+            {
+                InterpreterExecute.InterpreterCommand();
+                return true;
+            }
 
 
 

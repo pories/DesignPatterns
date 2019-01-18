@@ -92,6 +92,10 @@
       <Project>{7672cff5-b45d-4e89-a142-80cedfd6db15}</Project>
       <Name>Flyweight</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Interpreter\Interpreter.csproj">
+      <Project>{5b5c4fb6-7677-439e-b163-88f95698b7ac}</Project>
+      <Name>Interpreter</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Prototype\Prototype.csproj">
       <Project>{b0f6a8a2-94ec-400d-96ad-7a70f7924e7d}</Project>
       <Name>Prototype</Name>
