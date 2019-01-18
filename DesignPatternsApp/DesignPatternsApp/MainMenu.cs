@@ -5,11 +5,13 @@ using Singleton;
 using StrategyNull;
 using Prototype;
 using Builder;
+using Bridge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Composite;
 
 namespace DesignPatternsApp
 {
@@ -21,7 +23,8 @@ namespace DesignPatternsApp
             Console.Title = "Design Patterns";
             Console.Clear(); //Cleans window so you can see. 
             Console.WriteLine("Here is a list of design patterns.");
-            Console.WriteLine("Choose 1) Strategy/Null Object Pattern, 2)Singleton Pattern 3)Decorator Pattern 4)Factory Pattern 5) Adapter 6) Builder 7)Prototype"); //This is where you tell user what their options are.
+            Console.WriteLine("Choose 1) Strategy/Null Object Pattern, 2)Singleton Pattern 3)Decorator Pattern " +
+                "4)Factory Pattern 5) Adapter 6) Builder 7)Prototype 8)Bridge 9) Composite"); //This is where you tell user what their options are.
             Console.WriteLine("Or hit any other key to exit.");
             string result = Console.ReadLine();
             if (result == "1")
@@ -59,7 +62,16 @@ namespace DesignPatternsApp
                 PrototypeExecute.PrototypeCommand();
                 return true;
             }
-
+            else if (result == "8")
+            {
+                BridgeExecute.BridgeCommand();
+                return true;
+            }
+            else if (result == "9")
+            {
+                CompositeExecute.CompositeCommand();
+                return true;
+            }
 
             else
             {

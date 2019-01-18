@@ -56,9 +56,17 @@
       <Project>{16b0396c-bf99-4e76-b132-a88c36c52d68}</Project>
       <Name>Adapter</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Bridge\Bridge.csproj">
+      <Project>{7448b994-0bdd-4c72-bae2-d5265c3ed250}</Project>
+      <Name>Bridge</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Builder\Builder.csproj">
       <Project>{a11cad07-38d3-4b11-929d-4639ff162b4c}</Project>
       <Name>Builder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Composite\Composite.csproj">
+      <Project>{b5a3b726-0ec8-4398-98e2-176c42e2de48}</Project>
+      <Name>Composite</Name>
     </ProjectReference>
     <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj">
       <Project>{c292897d-fea5-47d6-8edf-bb9cb8d27601}</Project>
