@@ -68,6 +68,10 @@
       <Project>{a01076e2-0b6d-49b7-86cc-b762e62baff1}</Project>
       <Name>FactoryMethod</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Prototype\Prototype.csproj">
+      <Project>{b0f6a8a2-94ec-400d-96ad-7a70f7924e7d}</Project>
+      <Name>Prototype</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Singleton\Singleton.csproj">
       <Project>{1de73c12-32df-44fc-88b6-c461c7a052e7}</Project>
       <Name>Singleton</Name>
