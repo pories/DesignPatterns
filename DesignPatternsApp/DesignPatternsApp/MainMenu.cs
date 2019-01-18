@@ -6,6 +6,8 @@ using StrategyNull;
 using Prototype;
 using Builder;
 using Bridge;
+using Flyweight;
+using Proxy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +27,8 @@ namespace DesignPatternsApp
             Console.Clear(); //Cleans window so you can see. 
             Console.WriteLine("Here is a list of design patterns.");
             Console.WriteLine("Choose 1) Strategy/Null Object Pattern, 2)Singleton Pattern 3)Decorator Pattern " +
-                "4)Factory Pattern 5) Adapter 6) Builder 7)Prototype 8)Bridge 9) Composite 10)Facade"); //This is where you tell user what their options are.
+                "4)Factory Pattern 5) Adapter 6) Builder 7)Prototype 8)Bridge 9) Composite 10)Facade " +
+                "11)Flyweight 12) Proxy"); //This is where you tell user what their options are.
             Console.WriteLine("Or hit any other key to exit.");
             string result = Console.ReadLine();
             if (result == "1")
@@ -73,10 +76,19 @@ namespace DesignPatternsApp
                 CompositeExecute.CompositeCommand();
                 return true;
             }
-
             else if (result == "10")
             {
                 FacadeExecute.FacadeCommand();
+                return true;
+            }
+            else if (result == "11")
+            {
+                FlyweightExecute.FlyweightCommand();
+                return true;
+            }
+            else if (result == "12")
+            {
+                ProxyExecute.ProxyCommand();
                 return true;
             }
             else

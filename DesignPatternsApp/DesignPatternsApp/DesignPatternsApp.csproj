@@ -80,9 +80,17 @@
       <Project>{a01076e2-0b6d-49b7-86cc-b762e62baff1}</Project>
       <Name>FactoryMethod</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Flyweight\Flyweight.csproj">
+      <Project>{7672cff5-b45d-4e89-a142-80cedfd6db15}</Project>
+      <Name>Flyweight</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Prototype\Prototype.csproj">
       <Project>{b0f6a8a2-94ec-400d-96ad-7a70f7924e7d}</Project>
       <Name>Prototype</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Proxy\Proxy.csproj">
+      <Project>{9c7d5842-4946-4ae5-b15a-89b598a39161}</Project>
+      <Name>Proxy</Name>
     </ProjectReference>
     <ProjectReference Include="..\Singleton\Singleton.csproj">
       <Project>{1de73c12-32df-44fc-88b6-c461c7a052e7}</Project>
