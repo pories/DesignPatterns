@@ -68,6 +68,10 @@
       <Project>{88e45daf-bd32-4466-b7a0-b91561841f7d}</Project>
       <Name>ChainOfResponsibility</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Command\Command.csproj">
+      <Project>{9d4ef55c-6de4-4902-8461-5c2560a1c813}</Project>
+      <Name>Command</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Composite\Composite.csproj">
       <Project>{b5a3b726-0ec8-4398-98e2-176c42e2de48}</Project>
       <Name>Composite</Name>
