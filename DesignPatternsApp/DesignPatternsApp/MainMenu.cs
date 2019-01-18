@@ -11,6 +11,13 @@ using Proxy;
 using ChainOfResponsibility;
 using Command;
 using Interpreter;
+using Iterator;
+using Mediator;
+using Memento;
+using Observer;
+using State;
+using Visitor;
+using Template;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +38,8 @@ namespace DesignPatternsApp
             Console.WriteLine("Here is a list of design patterns.");
             Console.WriteLine("Choose 1) Strategy/Null Object Pattern, 2)Singleton Pattern 3)Decorator Pattern " +
                 "4)Factory Pattern 5) Adapter 6) Builder 7)Prototype 8)Bridge 9) Composite 10)Facade " +
-                "11)Flyweight 12) Proxy 13) Chain Of Responsibility 14) Command 15) Interpreter "); //This is where you tell user what their options are.
+                "11)Flyweight 12) Proxy 13) Chain Of Responsibility 14) Command 15) Interpreter 16) Iterator " +
+                "17) Mediator 18) Memento 19) Observer 20) State 21) Visitor 22) Template"); //This is where you tell user what their options are.
             Console.WriteLine("Or hit any other key to exit.");
             string result = Console.ReadLine();
             if (result == "1")
@@ -106,16 +114,46 @@ namespace DesignPatternsApp
             }
             else if (result == "15")
             {
-                InterpreterExecute.InterpreterCommand();
+                
+                Console.WriteLine("Interpreter: This need work too!");
+                //InterpreterExecute.InterpreterCommand();
                 return true;
             }
-
-
-
-
-
-
-
+            else if (result == "16")
+            {
+                Console.WriteLine("Iterator: This need work too!");
+                return true;
+            }
+            else if (result == "17")
+            {
+                Console.WriteLine("Mediator: This need work too!");
+                return true;
+            }
+            else if (result == "18")
+            {
+                Console.WriteLine("Memento: This need work too!");
+                return true;
+            }
+            else if (result == "19")
+            {
+                Console.WriteLine("Observer: This need work too!");
+                return true;
+            }
+            else if (result == "20")
+            {
+                Console.WriteLine("state: This need work too!");
+                return true;
+            }
+            else if (result == "21")
+            {
+                Console.WriteLine("Visitor: This need work too!");
+                return true;
+            }
+            else if (result == "22")
+            {
+                Console.WriteLine("Template: This need work too!");
+                return true;
+            }
             else
             {
                 Null.Object();//Dont have to have null(else catches all) but it looks nice.

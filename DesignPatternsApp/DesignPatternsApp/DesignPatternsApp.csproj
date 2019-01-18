@@ -96,6 +96,22 @@
       <Project>{5b5c4fb6-7677-439e-b163-88f95698b7ac}</Project>
       <Name>Interpreter</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Iterator\Iterator.csproj">
+      <Project>{c64a3fbf-1f9e-411f-b15f-b5593b541eb1}</Project>
+      <Name>Iterator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mediator\Mediator.csproj">
+      <Project>{d53bd46f-dc6d-4d42-8a4a-b84a18850a0d}</Project>
+      <Name>Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Memento\Memento.csproj">
+      <Project>{a03bfbee-8798-481d-a6b0-519f306e154b}</Project>
+      <Name>Memento</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Observer\Observer.csproj">
+      <Project>{8bbbcf21-ddc6-4fc2-b51d-c8f3d142b0eb}</Project>
+      <Name>Observer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Prototype\Prototype.csproj">
       <Project>{b0f6a8a2-94ec-400d-96ad-7a70f7924e7d}</Project>
       <Name>Prototype</Name>
@@ -108,10 +124,25 @@
       <Project>{1de73c12-32df-44fc-88b6-c461c7a052e7}</Project>
       <Name>Singleton</Name>
     </ProjectReference>
+    <ProjectReference Include="..\State\State.csproj">
+      <Project>{6d9cfa7e-fc09-4c74-96c9-40050107aadc}</Project>
+      <Name>State</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StrategyNull\StrategyNull.csproj">
       <Project>{ffd82ffa-f628-404d-a4d6-ae159b1c864b}</Project>
       <Name>StrategyNull</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Template\Template.csproj">
+      <Project>{6b6fda42-0249-4ef3-974f-e11b7e633ee4}</Project>
+      <Name>Template</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Visitor\Visitor.csproj">
+      <Project>{c984069f-d1e2-4f70-8575-d5a8b9dff89e}</Project>
+      <Name>Visitor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
