@@ -15,6 +15,7 @@ using Iterator;
 using IteratorPassed;
 using Mediator;
 using Memento;
+using MementoPassed;
 using Observer;
 using ObserverPassed;
 using ObserverPassedSecond;
@@ -135,7 +136,7 @@ namespace DesignPatternsApp
             }
             else if (result == "18")
             {
-                Console.WriteLine("Memento: This need work too!");
+                MementoPassedExecute.MementoPassedCommand();
                 return true;
             }
             else if (result == "19")
@@ -143,7 +144,6 @@ namespace DesignPatternsApp
                 //first try
                 //ObserverPassedExecute.ObserverPassedCommand();
                 ObserverPassedSecondExecute.ObserverPassedSecondCommand();
-                Console.WriteLine("Observer: This need work too!");
                 return true;
             }
             else if (result == "20")

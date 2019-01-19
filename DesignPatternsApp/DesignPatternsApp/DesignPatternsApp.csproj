@@ -108,6 +108,10 @@
       <Project>{d53bd46f-dc6d-4d42-8a4a-b84a18850a0d}</Project>
       <Name>Mediator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MementoPassed\MementoPassed.csproj">
+      <Project>{4b630649-995e-4bd2-8fd4-e09c71dd6dc8}</Project>
+      <Name>MementoPassed</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Memento\Memento.csproj">
       <Project>{a03bfbee-8798-481d-a6b0-519f306e154b}</Project>
       <Name>Memento</Name>
