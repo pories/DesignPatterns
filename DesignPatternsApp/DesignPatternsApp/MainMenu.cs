@@ -12,6 +12,7 @@ using ChainOfResponsibility;
 using Command;
 using Interpreter;
 using Iterator;
+using IteratorPassed;
 using Mediator;
 using Memento;
 using Observer;
@@ -124,7 +125,7 @@ namespace DesignPatternsApp
             }
             else if (result == "16")
             {
-                Console.WriteLine("Iterator: This need work too!");
+                IteratorPassedExecute.IteratorPassedCommand();
                 return true;
             }
             else if (result == "17")

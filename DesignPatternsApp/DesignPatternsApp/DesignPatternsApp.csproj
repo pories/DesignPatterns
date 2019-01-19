@@ -96,6 +96,10 @@
       <Project>{5b5c4fb6-7677-439e-b163-88f95698b7ac}</Project>
       <Name>Interpreter</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IteratorPassed\IteratorPassed.csproj">
+      <Project>{3d3793b3-68f7-4a57-ae39-5de536dcb14a}</Project>
+      <Name>IteratorPassed</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Iterator\Iterator.csproj">
       <Project>{c64a3fbf-1f9e-411f-b15f-b5593b541eb1}</Project>
       <Name>Iterator</Name>

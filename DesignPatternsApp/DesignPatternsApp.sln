@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPassed", "ObserverP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPassedSecond", "ObserverPassedSecond\ObserverPassedSecond.csproj", "{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPassed", "IteratorPassed\IteratorPassed.csproj", "{3D3793B3-68F7-4A57-AE39-5DE536DCB14A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3793B3-68F7-4A57-AE39-5DE536DCB14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3793B3-68F7-4A57-AE39-5DE536DCB14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3793B3-68F7-4A57-AE39-5DE536DCB14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3793B3-68F7-4A57-AE39-5DE536DCB14A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
