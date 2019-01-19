@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPassed", "VisitorPas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPassed", "ObserverPassed\ObserverPassed.csproj", "{F6E539E2-E414-40A7-88A5-E4271B87FF3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPassedSecond", "ObserverPassedSecond\ObserverPassedSecond.csproj", "{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{F6E539E2-E414-40A7-88A5-E4271B87FF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6E539E2-E414-40A7-88A5-E4271B87FF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6E539E2-E414-40A7-88A5-E4271B87FF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EBAE7D-B8E4-404F-A803-2236CACA9C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
