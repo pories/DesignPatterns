@@ -1,0 +1,20 @@
+
+public static void SingletonCommand()
+        {
+            bool repeat = true;
+            while (repeat)
+            {
+
+//code goes here.
+       Console.Write("Go again? Y/N: ");
+                string go = Console.ReadLine();
+                if (go == "Y" || go == "y")
+                {
+                    repeat = true;
+                }
+                else
+                {
+                    repeat = false;
+                }
+            }
+        }
