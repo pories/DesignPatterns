@@ -148,6 +148,10 @@
       <Project>{ffd82ffa-f628-404d-a4d6-ae159b1c864b}</Project>
       <Name>StrategyNull</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TemplatePassed\TemplatePassed.csproj">
+      <Project>{496a2674-1793-4dfa-b1ce-8c3409033ffc}</Project>
+      <Name>TemplatePassed</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Template\Template.csproj">
       <Project>{6b6fda42-0249-4ef3-974f-e11b7e633ee4}</Project>
       <Name>Template</Name>

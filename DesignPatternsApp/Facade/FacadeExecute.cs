@@ -10,6 +10,12 @@ namespace Facade
     {
         public static void FacadeCommand()
         {
+            //I think...
+            //Like an architect, a middle man, will do a bunch of tasks. 
+            //Object that provides a simplifyed interface to a larger body of code,like a class libary. 
+            //Instead of calling all multiple classes and methods in them.
+            //Put them all calls in one  method. Instead of class1.method7(), class2.method1(), all in one. 
+            //Enough mistakes to not use. 
 
             bool repeat = true;
             while (repeat)

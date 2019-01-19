@@ -23,6 +23,7 @@ using State;
 using Visitor;
 using VisitorPassed;
 using Template;
+using TemplatePassed;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -159,7 +160,7 @@ namespace DesignPatternsApp
             }
             else if (result == "22")
             {
-                Console.WriteLine("Template: This need work too!");
+                TemplatePassedExecute.TemplatePassedCommand();
                 return true;
             }
             else
