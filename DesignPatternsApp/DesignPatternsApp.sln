@@ -45,7 +45,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{6D9CFA7E-FC09-4C74-96C9-40050107AADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{C984069F-D1E2-4F70-8575-D5A8B9DFF89E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorFailed", "Visitor\VisitorFailed.csproj", "{C984069F-D1E2-4F70-8575-D5A8B9DFF89E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{6B6FDA42-0249-4EF3-974F-E11B7E633EE4}"
 EndProject
