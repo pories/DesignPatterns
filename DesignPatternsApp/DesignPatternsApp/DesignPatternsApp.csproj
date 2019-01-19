@@ -108,6 +108,10 @@
       <Project>{a03bfbee-8798-481d-a6b0-519f306e154b}</Project>
       <Name>Memento</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ObserverPassed\ObserverPassed.csproj">
+      <Project>{f6e539e2-e414-40a7-88a5-e4271b87ff3b}</Project>
+      <Name>ObserverPassed</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{8bbbcf21-ddc6-4fc2-b51d-c8f3d142b0eb}</Project>
       <Name>Observer</Name>

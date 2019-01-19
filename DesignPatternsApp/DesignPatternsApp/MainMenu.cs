@@ -15,6 +15,7 @@ using Iterator;
 using Mediator;
 using Memento;
 using Observer;
+using ObserverPassed;
 using State;
 using Visitor;
 using VisitorPassed;
@@ -137,6 +138,7 @@ namespace DesignPatternsApp
             }
             else if (result == "19")
             {
+                ObserverPassedExecute.ObserverPassedCommand();
                 Console.WriteLine("Observer: This need work too!");
                 return true;
             }
