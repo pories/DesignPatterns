@@ -17,6 +17,7 @@ using Memento;
 using Observer;
 using State;
 using Visitor;
+using VisitorPassed;
 using Template;
 using System;
 using System.Collections.Generic;
@@ -146,7 +147,8 @@ namespace DesignPatternsApp
             }
             else if (result == "21")
             {
-                Console.WriteLine("Visitor: This need work too!");
+                //kevin
+                VisitorPassedExecute.VisitorPassedCommand();
                 return true;
             }
             else if (result == "22")

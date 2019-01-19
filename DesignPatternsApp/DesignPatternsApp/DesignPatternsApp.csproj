@@ -136,6 +136,10 @@
       <Project>{6b6fda42-0249-4ef3-974f-e11b7e633ee4}</Project>
       <Name>Template</Name>
     </ProjectReference>
+    <ProjectReference Include="..\VisitorPassed\VisitorPassed.csproj">
+      <Project>{98dae184-6512-4be8-bbe0-88333b6e3802}</Project>
+      <Name>VisitorPassed</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Visitor\VisitorFailed.csproj">
       <Project>{c984069f-d1e2-4f70-8575-d5a8b9dff89e}</Project>
       <Name>VisitorFailed</Name>
